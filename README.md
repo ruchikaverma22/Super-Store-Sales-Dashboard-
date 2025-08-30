@@ -1,6 +1,7 @@
 📊 SuperStore Analytics: Sales Performance & Forecast Dashboard
+
 Dashboard Preview : https://github.com/ruchikaverma22/Super-Store-Sales-Dashboard-/blob/main/Super%20Store%20Sales%20Dashboard%20image.jpeg
-Forcasting visuals: 
+Forcasting visuals: https://github.com/ruchikaverma22/Super-Store-Sales-Dashboard-/blob/main/Super%20Store%20Sales%20Dashboard%20forecasting%20image%20.jpeg
 
 A dynamic, interactive Power BI dashboard built to explore and forecast retail sales performance across regions, categories, and customer segments. This tool provides a complete historical analysis (2019–2020) along with a 15-day forecast, helping businesses identify trends, optimize strategies, and plan inventory effectively.
 
