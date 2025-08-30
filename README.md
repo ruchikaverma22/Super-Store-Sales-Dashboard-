@@ -4,115 +4,94 @@
 
 ![Forecasting Dashboard](https://github.com/ruchikaverma22/Super-Store-Sales-Dashboard-/blob/main/Super%20Store%20Sales%20Dashboard%20forecasting%20image%20.jpeg)
 
+📌 Project Overview
 
-A dynamic, interactive Power BI dashboard built to explore and forecast retail sales performance across regions, categories, and customer segments. This tool provides a complete historical analysis (2019–2020) along with a 15-day forecast, helping businesses identify trends, optimize strategies, and plan inventory effectively.
+This project provides an interactive Power BI dashboard for analyzing and forecasting SuperStore sales performance. It covers historical trends, customer segments, shipping modes, payment preferences, and includes a 15-day sales forecast for better business decision-making.
 
-🎯 Short Description / Purpose
+🚀 Features
 
-The SuperStore Sales Dashboard is a comprehensive Power BI solution designed to analyze historical sales and forecast future performance. It enables businesses to track KPIs, understand customer preferences, evaluate profitability, and make data-driven decisions for growth.
+✅ KPI Overview → Sales, Quantity, Profit, Avg. Delivery Time
 
-🛠️ Tech Stack
+✅ Regional & State Analysis → Top-performing regions and states
 
-The dashboard was built using the following tools and technologies:
+✅ Customer Segmentation → Consumer, Corporate, Home Office performance
 
-📊 Power BI Desktop – Main data visualization platform for dashboard creation.
+✅ Sales by Category & Sub-Category → Office Supplies, Technology, Furniture
 
-📂 Power Query – Used for cleaning, reshaping, and preparing raw sales data.
+✅ Payment & Shipping Preferences → COD, Online, Cards; Standard vs Same-Day shipping
 
-🧠 DAX (Data Analysis Expressions) – Created calculated measures, KPIs, and custom logic.
+✅ YoY Trend Analysis → Monthly sales and profit comparison
 
-📝 Data Modeling – Defined relationships among tables (Sales, Orders, Customers, Products).
+✅ Forecasting → 15-day sales prediction with Power BI’s built-in time-series forecasting
 
-🔮 Power BI Forecasting – Applied time-series forecasting for 15-day sales predictions.
+📂 Project Structure
+SuperStore-Sales-Analysis/
+│── data/                # Dataset (SuperStore Sales Data)
+│── dashboard/           # Power BI .pbix file
+│── reports/             # EDA reports / PDF summaries
+│── images/              # Screenshots of dashboard
+│── README.md            # Project documentation
 
-📁 File Formats – .pbix (Power BI file), .png (dashboard previews).
+🛠️ Tools & Technologies
 
-📂 Data Source
+Power BI → Dashboard & Data Visualization
 
-Source: SuperStore sample dataset (commonly used for data analysis & BI projects).
+Excel / CSV → Data source
 
-Structure:
+DAX (Data Analysis Expressions) → Custom calculations
 
-Orders Table → Order ID, Order Date, Ship Mode, Segment, Category, Sub-Category, Sales, Quantity, Profit.
+Power BI Forecasting → Time-series prediction
 
-Customers Table → Customer ID, Region, State, City.
+📊 Key Insights
 
-Payments Table → Payment Mode, Transaction details.
+West region contributes the highest sales (33%), while Central region shows strong profit growth.
 
-Data covers 2 years (2019–2020) with order-level transactions, enabling trend, category, and region-based insights.
+Consumer segment dominates with 48% of total sales.
 
-🌟 Features / Highlights
-🔹 Business Problem
+Cash on Delivery (43%) is the most used payment mode, highlighting digital adoption opportunities.
 
-Retail businesses often struggle to track profitability, customer behavior, and forecast demand due to fragmented reporting. Managers need a single dashboard to answer key questions:
+Technology products deliver high margins, while Furniture needs demand-boosting strategies.
 
-Which regions and states drive the most sales?
+Standard shipping is most preferred; Same-Day delivery adoption is low.
 
-Which customer segments and categories are most profitable?
+Forecast suggests a short-term dip in sales (~3K units) → requires promotional push.
 
-What payment modes are most preferred?
+📈 Dashboard Preview
 
-How will sales perform in the upcoming days?
+(Add screenshots here)
 
-🔹 Goal of the Dashboard
+Sales Overview
 
-To deliver an interactive Power BI tool that:
+Regional Analysis
 
-Provides a 360° view of sales performance across geography, customer segments, categories, and shipping modes.
+Forecasting
 
-Forecasts short-term demand for better planning and inventory management.
+📥 Installation / Usage
 
-Supports business decision-making with actionable insights.
+Clone the repository:
 
-🔹 Walkthrough of Key Visuals
+git clone https://github.com/your-username/superstore-sales-analysis.git
 
-KPI Cards (Top Panel)
 
-Sales: $1.6M
+Open the .pbix file in Power BI Desktop.
 
-Quantity: 22K
+Connect to the dataset (Excel/CSV).
 
-Profit: $175K
+Refresh data and explore the dashboard.
 
-Avg Delivery: 4 days
+📌 Future Enhancements
 
-Regional & State Analysis
+🔹 Automate data refresh with Power BI Service.
 
-Donut chart showing sales share by Region (West 33%, East 29%, Central 22%, South 16%).
+🔹 Add advanced ML-based forecasting (ARIMA, Prophet).
 
-Map visual showing sales & profit distribution across U.S. states.
+🔹 Integrate R/Python visuals for deeper insights.
 
-Customer Segments & Payment Modes
+🔹 Build a web app version using Streamlit/Flask + Power BI Embedded.
 
-Consumer (48%) dominates, followed by Corporate (33%) and Home Office (19%).
+👩‍💻 Author
 
-COD is the most used payment method (43%), followed by Online (35%) and Cards (22%).
+Ruchika Verma
+📧 ruchikaverma.workk@gmail.com
 
-Sales by Category & Sub-Category
-
-Office Supplies lead in sales ($0.64M), Technology is highly profitable, Furniture shows slower growth.
-
-Shipping Mode Insights
-
-Standard Class dominates shipments ($0.91M), Same-Day is least adopted.
-
-YoY Trend Analysis
-
-Line charts showing monthly sales & profit growth (2019 vs 2020) with seasonal peaks in Q3 & Q4.
-
-Forecasting (15-Day)
-
-Predictive line chart highlights short-term sales dip (to ~3K) after peaks of 10.6K units, helping anticipate and prepare for fluctuations.
-
-🔹 Business Impact & Insights
-
-Strategic Planning: Helps identify underperforming regions/states (e.g., Utah, Vermont) for targeted marketing.
-
-Profitability Focus: Technology category provides high margins; Furniture requires demand stimulation.
-
-Digital Adoption: Heavy reliance on COD → businesses can drive online/card payments through incentives.
-
-Seasonality Prep: Forecasting highlights Q4 demand spikes; inventory alignment is crucial.
-
-Delivery Optimization: Standard shipping dominates; opportunities exist to increase Same-Day adoption.
-
+Linkedin🔗 https://www.linkedin.com/in/ruchika-verma-1ab509357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app 
