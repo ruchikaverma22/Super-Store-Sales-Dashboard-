@@ -1,4 +1,4 @@
-📊 SuperStore Analytics: Sales Performance & Forecast Dashboard
+##📊 SuperStore Analytics: Sales Performance & Forecast Dashboard
 
 ![Main Dashboard](https://github.com/ruchikaverma22/Super-Store-Sales-Dashboard-/blob/main/Super%20Store%20Sales%20Dashboard%20image.jpeg?raw=true)
 
@@ -7,14 +7,14 @@
 A dynamic, interactive **Power BI Dashboard** designed to analyze and forecast Super Store sales performance.  
 This project focuses on uncovering trends, customer segments, product categories, and regional sales insights to support data-driven decision-making.  
 
-  🎯 Purpose  
+ ## 🎯 Purpose  
 The goal of this dashboard is to:  
 - Provide **end-to-end insights** into Super Store sales.  
 - Highlight **sales trends, regional performance, and customer behavior**.  
 - Support **forecasting models** for future sales planning.  
 - Help managers and stakeholders **make data-backed business decisions**.  
 
-🛠️ Tech Stack  
+##🛠️ Tech Stack  
 
 - 📊 **Power BI Desktop** – Data visualization & dashboard creation  
 - 🔄 **Power Query** – Data cleaning & transformation  
@@ -31,7 +31,7 @@ The goal of this dashboard is to:
   - Sales, profit, and discount metrics  
   - Regional segmentation (states, cities)  
 
-🚀 Features & Highlights  
+##🚀 Features & Highlights  
 
 🔹 Business Problem  
 The Super Store needed clear insights into **which products, regions, and customer segments** were driving profitability vs. losses.  
@@ -59,7 +59,7 @@ The Super Store needed clear insights into **which products, regions, and custom
 ## 👩‍💻 Author  
 
 📌 **Prepared by:** Ruchika Verma  
-📧 Linkedin: [https://www.linkedin.com/in/ruchika-verma-1ab509357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app]  
+📧 Linkedin: [https://www.linkedin.com/in/ruchika-verma-1ab509357/]  
 ⭐ If you like this project, don’t forget to **star this repo**!  
 
 
